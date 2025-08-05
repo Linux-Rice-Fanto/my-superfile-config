@@ -1,0 +1,67 @@
+# Theme create by: https://github.com/F4NT0
+
+code_syntax_highlight = "catppuccin-mocha"
+
+# ========= Border =========
+
+file_panel_border = "#21262d"
+sidebar_border = "#21262d"
+footer_border = "#21262d"
+
+# ========= Border Active =========
+
+file_panel_border_active = "#6c7086"
+sidebar_border_active = "#6c7086"
+footer_border_active = "#6c7086"
+modal_border_active = "#6c7086"
+
+# ========= Background (bg) =========
+
+full_screen_bg = "#0d1117"
+file_panel_bg = "#0d1117"
+sidebar_bg = "#0d1117"
+footer_bg = "#0d1117"
+modal_bg = "#0d1117"
+
+# ========= Foreground (fg) =========
+
+full_screen_fg = "#cdd6f4"
+file_panel_fg = "#cdd6f4"
+sidebar_fg = "#cdd6f4"
+footer_fg = "#cdd6f4"
+modal_fg = "#cdd6f4"
+
+# ========= Special Color =========
+
+cursor = "#74c7ec"
+correct = "#a6e3a1"
+error = "#f38ba8"
+hint = "#89b4fa"
+cancel = "#6c7086"
+# Gradient color can only have two color!
+gradient_color = ["#a6e3a1", "#f38ba8"]
+
+# ========= File Panel Special Items =========
+
+file_panel_top_directory_icon = "#56EF19"
+file_panel_top_path = "#FE9900"
+file_panel_item_selected_fg = "#a6e3a1"
+file_panel_item_selected_bg = "#2a303c"
+
+# ========= Sidebar Special Items =========
+
+sidebar_title = "#56EF19"
+sidebar_item_selected_fg = "#a6e3a1"
+sidebar_item_selected_bg = "#0d1117"
+sidebar_divider = "#6c7086"
+
+# ========= Modal Special Items =========
+modal_cancel_fg = "#cdd6f4"
+modal_cancel_bg = "#6c7086"
+
+modal_confirm_fg = "#cdd6f4"
+modal_confirm_bg = "#4a4e69"
+
+# ========= Help Menu =========
+help_menu_hotkey = "#a6e3a1"
+help_menu_title = "#cba6f7"
