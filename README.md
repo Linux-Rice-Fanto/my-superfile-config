@@ -56,6 +56,53 @@ powershell -ExecutionPolicy Bypass -Command "Invoke-Expression ((New-Object Syst
 
 - TBD
 
+## Keyboard Shortcut
+
+### File Panel Control
+
+| Command | Description |
+|---|---|
+| `N` | Create a new panel into superfile |
+| `Tab` | Go to the next panel created |
+| `Shift + Left` | Go to the previous panel created |
+| `F` | Toggle file preview panel |
+| `O` | Open the sort options menu |
+| `R` | Toggle Reverse sort |
+
+### Change the focus panels
+
+| Command | Description |
+|---|---|
+| `P` | Focus on the Processbar |
+| `S` | Focus on Sidebar |
+| `M` | Focus on the Metadata |
+
+### Create and Rename Files/Directories
+
+| Command | Description |
+|---|---|
+| `Ctrl + N` | Create File or Directory |
+| `Ctrl + R` | Rename File or Directory |
+
+### File Operations
+
+| Command | Description |
+|---|---|
+| `Ctrl + C` | Copy Items   |
+| `Ctrl + V` | Paste Items  |
+| `Ctrl + X` | Cut Items    |
+| `Ctrl + D` | Delete Items |
+
+### Edit files
+
+
+| Command | Description |
+|---|---|
+| `E` | Open Selected Directory/File into the specified editor |
+| `Shift + E` | Open Current Directory into the specified editor |
+
+
+
 ## Colors
 
 - Base border: `#21262d`
