@@ -1,6 +1,7 @@
 # My Superfile Version
 
-- Thanks to []() for the amazing project [superfile]().
+- Thanks to [yorukot](https://github.com/yorukot) for the amazing project [superfile](https://github.com/yorukot/superfile).
+- [Official Documentation](https://superfile.netlify.app/)
 
 ## Description
 
@@ -11,7 +12,29 @@
 
 - Run the following command into any Operational System:
 
+### Linux
+
 ```bash
+
+bash -c "$(curl -sLo- https://superfile.netlify.app/install.sh)"
+
+```
+
+### Windows
+
+```bash
+
+powershell -ExecutionPolicy Bypass -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://superfile.netlify.app/install.ps1'))"
+
+
+```
+
+- To uninstall on windows:
+
+```bash
+
+powershell -ExecutionPolicy Bypass -Command "Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://superfile.netlify.app/uninstall.ps1'))"
+
 
 ```
 
@@ -35,14 +58,14 @@
 
 ## Colors
 
-- Base border: #21262d
-- Border active: #6c7086
-- Project background color: #0d1117
-- Project Foreground color: #cdd6f4
-- Icons and Sidebar tittles: #56EF19
-- Current folder location: #FE9900
-- Sidebar selected directory foreground: #a6e3a1
-- Sidebar selected directory background: #0d1117
-- Cursor color to move between files/dirs: #74c7ec
+- Base border: `#21262d`
+- Border active: `#6c7086`
+- Project background color: `#0d1117`
+- Project Foreground color: `#cdd6f4`
+- Icons and Sidebar tittles: `#56EF19`
+- Current folder location: `#FE9900`
+- Sidebar selected directory foreground: `#a6e3a1`
+- Sidebar selected directory background: `#0d1117`
+- Cursor color to move between files/dirs: `#74c7ec`
 
 ![Image](images/Color-Scheme.png)
