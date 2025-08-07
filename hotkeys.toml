@@ -1,18 +1,31 @@
-# ╭─────────────────────────────╮
-# │ SUPERFILE KEYBOARD SHORTCUTS│
-# ╰─────────────────────────────╯
+#  ╭──────────────────────────────────────────────────────────────────────────╮
+#  │   ███████╗██╗   ██╗██████╗ ███████╗██████╗ ███████╗██╗██╗     ███████╗   │
+#  │   ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗██╔════╝██║██║     ██╔════╝   │
+#  │   ███████╗██║   ██║██████╔╝█████╗  ██████╔╝█████╗  ██║██║     █████╗     │
+#  │   ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██╔══╝  ██║██║     ██╔══╝     │
+#  │   ███████║╚██████╔╝██║     ███████╗██║  ██║██║     ██║███████╗███████╗   │
+#  │   ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝   │
+#  ╰──────────────────────────────────────────────────────────────────────────╯                                                                  
+# ┌────────────────╮
+# │ GLOBAL HOTKEYS │
+# └────────────────╯
 
-# GLOBAL HOTKEYS
 confirm = ['enter']
 quit = ['q', 'esc'] 
 
-# MOVEMENT
+# ┌──────────╮
+# │ MOVEMENT │
+# └──────────╯
+
 list_up = ['up', 'k']
 list_down = ['down', 'j']
 page_up = ['pgup', '']
 page_down = ['pgdown', '']
 
-# FILE PANEL CONTROL
+# ┌────────────────────╮
+# │ FILE PANEL CONTROL │
+# └────────────────────╯
+
 close_file_panel = ['w', '']
 create_new_file_panel = ['n', '']
 next_file_panel = ['tab', 'L']
@@ -21,49 +34,82 @@ toggle_file_preview_panel = ['f', '']
 open_sort_options_menu = ['o', '']
 toggle_reverse_sort = ['R', '']
 
-# CHANGE FOCUS
+# ┌────────────────────╮
+# │ CHANGE PANEL FOCUS │
+# └────────────────────╯
+
 focus_on_process_bar = ['p', '']
 focus_on_sidebar = ['s', '']
 focus_on_metadata = ['m', '']
 
-# CREATE AND RENAME FILES/DIRECTORIES
+# ┌─────────────────────────────────────╮
+# │ CREATE AND RENAME FILES/DIRECTORIES │
+# └─────────────────────────────────────╯
+
 file_panel_item_create = ['ctrl+n', '']
 file_panel_item_rename = ['ctrl+r', '']
 
-# FILES OPERATIONS
+# ┌──────────────────╮
+# │ FILES OPERATIONS │
+# └──────────────────╯
+
 copy_items = ['ctrl+c', '']
 paste_items = ['ctrl+v', 'ctrl+w', '']
 cut_items = ['ctrl+x', '']
 delete_items = ['ctrl+d', 'delete', '']
 
-# COMPRESS AND EXTRACT
+# ┌──────────────────╮
+# │ COMPRESS/EXTRACT │
+# └──────────────────╯
+
 extract_file = ['ctrl+e', '']
 compress_file = ['ctrl+a', '']
 
-# EDITOR
+# ┌────────╮
+# │ EDITOR │
+# └────────╯
+
 open_file_with_editor = ['e', '']
 open_current_directory_with_editor = ['E', '']
 
-# PINNED DIRECTORIES
+# ┌────────────────────╮
+# │ PINNED DIRECTORIES │
+# └────────────────────╯
+
 pinned_directory = ['P', '']
 
-# SHOW DOTFILES FILES
+# ┌────────────────────╮
+# │ SHOW DOTFILE FILES │
+# └────────────────────╯
+
 toggle_dot_file = ['.', '']
 
+# ┌───────────────────╮
+# │ CHANGE PANEL MODE │
+# └───────────────────╯
 
 change_panel_mode = ['v', '']
 
-# MENUS
+# ┌────────────────────╮
+# │ OPEN HELP/COMMANDS │
+# └────────────────────╯
+
 open_help_menu = ['?', '']
 open_command_line = [':', '']
 open_spf_prompt = ['>', '']
 
-# COPY PATH AND PRESENT DIR
+# ┌────────────────────────────╮
+# │ COPY PATH FROM CURRENT DIR │
+# └────────────────────────────╯
+
 copy_path = ['ctrl+p', '']
 copy_present_working_directory = ['c', '']
 toggle_footer = ['F', '']
 
-# TYPING OPTIONS
+# ┌────────────────╮
+# │ TYPING OPTIONS │
+# └────────────────╯
+
 confirm_typing = ['enter', '']
 cancel_typing = ['ctrl+c', 'esc']
 
@@ -71,8 +117,7 @@ cancel_typing = ['ctrl+c', 'esc']
 parent_directory = ['h', 'left', 'backspace']
 search_bar = ['/', '']
 
-# =================================================================================================
-# Select mode hotkeys (can conflict with other modes, cananot conflict with global hotkeys)
+# SELECT MODE HOTKEYS
 file_panel_select_mode_items_select_down = ['shift+down', 'J']
 file_panel_select_mode_items_select_up = ['shift+up', 'K']
 file_panel_select_all_items = ['A', '']
